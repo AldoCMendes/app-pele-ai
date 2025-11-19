@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Círculo externo (representa rosto) -->
+  <circle cx="100" cy="100" r="80" fill="url(#gradient1)" opacity="0.2"/>
+  
+  <!-- Círculo médio -->
+  <circle cx="100" cy="100" r="60" fill="url(#gradient1)" opacity="0.4"/>
+  
+  <!-- Círculo interno (brilho/glow) -->
+  <circle cx="100" cy="100" r="40" fill="url(#gradient1)"/>
+  
+  <!-- Sparkle/destaque (IA analisando) -->
+  <path d="M100 30 L105 50 L125 55 L105 60 L100 80 L95 60 L75 55 L95 50 Z" fill="white" opacity="0.9"/>
+  <path d="M140 70 L143 80 L153 83 L143 86 L140 96 L137 86 L127 83 L137 80 Z" fill="white" opacity="0.7"/>
+  
+  <!-- Gradiente -->
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B9D;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#C084FC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#60A5FA;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>
